@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1700.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerator", "RomanNumerator\RomanNumerator.csproj", "{E02F09C0-73CF-4049-8A3C-B324D896C5B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerator.Test", "Numerator.Test\RomanNumerator.Test.csproj", "{D2E4FA54-A176-4072-964F-C4182C4D005C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerator.Test", "RomanNumerator.Test\RomanNumerator.Test.csproj", "{D2E4FA54-A176-4072-964F-C4182C4D005C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

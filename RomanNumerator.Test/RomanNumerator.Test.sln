@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerator.Test", "RomanNumerator.Test.csproj", "{2BA5E6C9-FEFF-4AB9-B899-B5849585D08A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA5E6C9-FEFF-4AB9-B899-B5849585D08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA5E6C9-FEFF-4AB9-B899-B5849585D08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA5E6C9-FEFF-4AB9-B899-B5849585D08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA5E6C9-FEFF-4AB9-B899-B5849585D08A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BCB7A0A-0316-4AC7-9A75-EA519C5FD5CB}
+	EndGlobalSection
+EndGlobal
