@@ -4,11 +4,6 @@ namespace RomanNumerator.Test;
 
 public class Tests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [TestCase(1, "I")]
     [TestCase(2, "II")]
     [TestCase(3, "III")]
