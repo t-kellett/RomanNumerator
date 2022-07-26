@@ -4,30 +4,27 @@ public class Numerator
 {
     static Dictionary<int, string> NumberToRoman = new Dictionary<int, string>
     {
-        { 4, "IV" },
+        { 10, "X" },
         { 9, "IX" },
-        { 10, "X" }
+        { 6, "VI" },
+        { 5, "V" },
+        { 4, "IV" },
+        { 1, "I" }
     };
 
     public static string Convert(int i)
     {
         string output = "";
 
-        if (NumberToRoman.Keys.Contains(i))
+        foreach (var value in NumberToRoman.Keys)
         {
-            return output += NumberToRoman[i];
+            while (i >= value)
+            {
+                output += NumberToRoman[value];
+                i -= value;
+            }
         }
 
-        for (var n = 0; n < i; n++)
-        {
-            if (i >= 5)
-            {
-                output += "V";
-                i -= 4;
-                continue;
-            }
-            output += "I";
-        }
         return output;
     }
 
