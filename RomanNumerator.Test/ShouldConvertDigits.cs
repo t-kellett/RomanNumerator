@@ -24,6 +24,14 @@ public class Tests
     [TestCase("XXXVIII", 38)]
     [TestCase("XL", 40)]
     [TestCase("L", 50)]
+    [TestCase("XC", 90)]
+    [TestCase("C", 100)]
+    [TestCase("CD", 400)]
+    [TestCase("D", 500)]
+    [TestCase("CM", 900)]
+    [TestCase("M", 1000)]
+    [TestCase("MMCDXCIX", 2499)]
+    [TestCase("MMMCMXLIX", 3949)]
 
     public void ShouldConvertIntegerToNumerals(string output, int input)
     {
