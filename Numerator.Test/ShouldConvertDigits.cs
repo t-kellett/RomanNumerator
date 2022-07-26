@@ -19,6 +19,12 @@ public class Tests
     [TestCase("VIII", 8)]
     [TestCase("IX", 9)]
     [TestCase("X", 10)]
+    [TestCase("XI", 11)]
+    [TestCase("XXIV", 24)]
+    [TestCase("XXXVIII", 38)]
+    [TestCase("XL", 40)]
+    [TestCase("L", 50)]
+
     public void ShouldConvertIntegerToNumerals(string output, int input)
     {
         Assert.That(Numerator.Convert(input), Is.EqualTo(output));
